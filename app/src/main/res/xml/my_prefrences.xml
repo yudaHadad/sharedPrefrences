@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="user@com"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:key="email"
+        android:title="email" />
+    <EditTextPreference
+        android:defaultValue="abcd1234"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="password"
+        android:key="password" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:title="show login"
+        android:key="login" />
+    <Preference
+        android:title="exit"
+        android:key="exit" />
+</PreferenceScreen>
